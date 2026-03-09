@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.opt.relativenumber = true
 vim.g.autoformat = true
+vim.g.ai_cmp = false
