@@ -3,8 +3,6 @@
 -- Add any additional keymaps here
 
 -- Normal Mode
-vim.keymap.set("n", "d", '"_d', { desc = "Delete without yanking" })
-vim.keymap.set("n", "dd", '"_dd', { desc = "Delete line without yanking" })
 vim.keymap.set("n", "x", '"_x', { desc = "Delete char without yanking" })
 vim.keymap.set("n", "<Tab>", "<cmd>bnext<cr>", { desc = "Next buffer" })
 vim.keymap.set("n", "<S-Tab>", "<cmd>bprevious<cr>", { desc = "Previous buffer" })
@@ -14,7 +12,6 @@ vim.keymap.set("n", "<C-j>", "<C-e>", { desc = "Scroll view down" })
 vim.keymap.set("n", "<C-k>", "<C-y>", { desc = "Scroll view up" })
 
 -- Visual Mode
-vim.keymap.set("v", "d", '"_d', { desc = "Delete selection without yanking" })
 vim.keymap.set("v", "x", '"_x', { desc = "Delete selection without yanking" })
 
 -- Insert Mode
