@@ -15,4 +15,3 @@ nvim
 # After it loads once, sync LazyVim and quit
 nvim +Lazy sync +qa
 ```
-```
